@@ -1,6 +1,0 @@
-Rudate.to_s(Year,Month,Day) # convert from YMD to russian date
-  etc. Rudate.to_s(1900,1,1) will output "1 Января 1900г"
-
-Rudate.to_s(Unix_time) # convert from unix time to russian date
-  time = Time.at(0)
-  etc. Rudate.to_s(time) will output "1 Января 1970г"
