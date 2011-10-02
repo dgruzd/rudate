@@ -7,7 +7,7 @@ module Rudate
     day.to_s + " " + month_names[month].to_s + " " + year.to_s + "г"
   end
 
-  def self.to_s(tm)
+  def self.time(tm)
     day = tm.strftime("%d").to_i
     month = tm.strftime("%m").to_i
     year = tm.strftime("%Y").to_i
