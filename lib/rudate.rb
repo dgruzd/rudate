@@ -11,7 +11,7 @@ module Rudate
     day = tm.strftime("%d").to_i
     month = tm.strftime("%m").to_i
     year = tm.strftime("%Y").to_i
-    Dateru.to_s(year,month,day)
+    self.to_s(year,month,day)
   end
 
 
