@@ -3,7 +3,7 @@ convert from YMD to russian date
 etc. `Rudate.to_s(1970,7,7)`
 will output "1 Июля 1970г"
 
-## Rudate.to_s(Unix_time) ##
+## Rudate.time(Unix_time) ##
 convert from Time class to russian date
 `time = Time.at(0)
 Rudate.time(time)`
